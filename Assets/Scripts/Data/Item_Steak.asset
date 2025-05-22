@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5309429a54933c44c845e3df20791eef, type: 3}
-  m_Name: Coffee
+  m_Name: Item_Steak
   m_EditorClassIdentifier: 
-  displayName: "\uCEE4\uD53C"
-  description: "\uBA39\uC73C\uBA74 \uC77C\uC2DC\uC801\uC73C\uB85C \uC18D\uB3C4\uAC00
-    \uBE68\uB77C\uC9D1\uB2C8\uB2E4."
+  displayName: "\uC2A4\uD14C\uC774\uD06C"
+  description: "\uCCB4\uB825\uACFC \uC2A4\uD0DC\uBBF8\uB098\uB97C \uD06C\uAC8C \uCC44\uC6CC
+    \uC90D\uB2C8\uB2E4."
   type: 1
-  icon: {fileID: 21300000, guid: 43046426625693b41b1c2ee199d4c15a, type: 3}
-  dropPrefab: {fileID: 2830233848371693089, guid: 6b5c801f5ca0b3e4aa2780dbe3ba0538, type: 3}
-  canStack: 0
-  maxStackAmount: 0
+  icon: {fileID: 0}
+  dropPrefab: {fileID: 8202614754564459210, guid: 10ab30527b9bc8a4995e798ac0706a37, type: 3}
+  canStack: 1
+  maxStackAmount: 2
   consumables:
+  - type: 0
+    value: 80
   - type: 1
-    value: 0
+    value: 80
