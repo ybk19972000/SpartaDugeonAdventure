@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
                     break;
                 case ConsumableType.Invincibility:
                     StartCoroutine(ApplyInvincibility(consumable.value));
+                    FindObjectOfType<InvincibleIndicator>()?.InvincibleFlash(consumable.value);
                     break;
             }
         }
