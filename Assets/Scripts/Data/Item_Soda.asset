@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: "\uC0AC\uC774\uB2E4"
   description: "\uC810\uD504\uB825\uC774 \uC18C\uD3ED \uC99D\uAC00\uD569\uB2C8\uB2E4"
-  type: 1
+  itemType: 0
+  consumType: 0
   consumables:
-  - type: 3
+  - type: 4
     value: 60
-  IsGodMode: 0

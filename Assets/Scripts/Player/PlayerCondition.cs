@@ -14,6 +14,8 @@ public class PlayerCondition : MonoBehaviour,IDamagable
 
     public event Action onTakeDamage;
 
+    private bool isInvincible = false;
+
     private void Update()
     {
         stamina.Add(stamina.passiveValue * Time.deltaTime);
@@ -37,9 +39,32 @@ public class PlayerCondition : MonoBehaviour,IDamagable
         Debug.Log("플레이어가 죽었다.");
     }
 
+    public void SetInvincible(bool value)
+    {
+        isInvincible = value;
+    }
+
     public void TakePhysicalDamage(int damageValue)
     {
+        if (isInvincible)
+        {
+            return;
+        }
+
         health.Subtract(damageValue);
         onTakeDamage?.Invoke();
     }
+
+    public bool UseStamina(float value)
+    {
+        if (stamina.curValue - value < 0f)
+        {
+            return false;
+        }
+
+        stamina.Subtract(value);
+        return true;
+    }
+
+
 }

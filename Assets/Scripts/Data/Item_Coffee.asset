@@ -15,8 +15,8 @@ MonoBehaviour:
   displayName: "\uCEE4\uD53C"
   description: "\uBA39\uC73C\uBA74 \uC77C\uC2DC\uC801\uC73C\uB85C \uC18D\uB3C4\uAC00
     \uBE68\uB77C\uC9D1\uB2C8\uB2E4."
-  type: 1
+  itemType: 0
+  consumType: 0
   consumables:
   - type: 3
-    value: 3
-  IsGodMode: 0
+    value: 4
