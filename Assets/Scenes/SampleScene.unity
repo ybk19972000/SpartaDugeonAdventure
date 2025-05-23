@@ -2037,6 +2037,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: {fileID: 2101998216}
   stamina: {fileID: 1623890484}
+  invincibility: {fileID: 0}
+  speedBoost: {fileID: 0}
+  jumpBoost: {fileID: 0}
 --- !u!1 &1191593545
 GameObject:
   m_ObjectHideFlags: 0
@@ -3143,10 +3146,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7669651166911944642, guid: b8d93d884880c384c8c438cd9b0141a1, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1708725bc1fd8c54584fd17393240d3e, type: 2}
     - target: {fileID: 8371257347788584125, guid: b8d93d884880c384c8c438cd9b0141a1, type: 3}
       propertyPath: m_Name
       value: ItemSpawnPanel
