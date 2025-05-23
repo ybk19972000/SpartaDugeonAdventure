@@ -1,12 +1,24 @@
 # SpartaDugeonAdventure
 스파르타 던전 어드벤처 개인 과제
+
+
 ![스크린샷 2025-05-23 143003](https://github.com/user-attachments/assets/993b820c-1df8-4014-bacd-95bcfd0b3362)
+플레이어 입니다.
 
 ![스크린샷 2025-05-23 142819](https://github.com/user-attachments/assets/df593991-2743-4007-a1b2-d7f6102058b5)
+각기 다른 기능을 가지고 있는 블록입니다.(왼쪽부터 아이템이 생성되는 블록, 점프대, 함정)
 
-![스크린샷 2025-05-23 142819](https://github.com/user-attachments/assets/9d84b3ba-2c7b-4516-8c6a-c66c8ada5f4b)
+![스크린샷 2025-05-23 142951](https://github.com/user-attachments/assets/a835ec7f-e24f-4575-82b5-2d42ce536ebd)
+플레이어에게 효과를 주는 아이템들로 왼쪽부터 
+
+스테이크 - 체력 80/ 스태미나 80을 채워줍니다.
+당근 - 체력 40 / 스태미나 30을 채워줍니다.
+커피 - 스피드가 4 증가합니다.
+사이다 - 점프력이 60 증가합니다.
+방패 - 8초동안 무적상태가 됩니다.
 
 
+https://github.com/user-attachments/assets/803ed901-37d5-46b1-ac2c-f7a0edf6608c
 
 
 
